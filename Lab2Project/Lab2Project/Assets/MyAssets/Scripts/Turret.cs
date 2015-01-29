@@ -5,16 +5,12 @@ public class Turret : MonoBehaviour {
 	public Rotation bodyRotation=null;
 	public Rotation gunRotation=null;
 	public float rotationSpeed=1;
-	private Rotation turrentRotation=null;
-	public Transform spawner=null;
-
-
-	void awake(){
-		this.turrentRotation = this.gameObject.GetComponent<Rotation> ();
-		}
-	// Use this for initialization
+	public Rotation turretRotation=null;
 	
-	// Update is called once per frame
+	void awake(){
+		this.turretRotation = this.gameObject.GetComponent<Rotation> ();
+		}
+
 	void Update () {
 		CheckInput();
 	}
@@ -25,29 +21,21 @@ public class Turret : MonoBehaviour {
 		RotateGunInput ();
 		Move ();
 		RotateTurret ();
-		FireInput ();
 	}
-	private void FireInput(){
-		if (Input.GetKeyDown (KeyCode.Space)) {
-			GameObject projectile = Instantiate (this.projectile  Prefab) as GameObject;
-			projectile.transform.position=this.spawner.postion;
-			projectile.transform.position=this.spawner.postion;
-				}
-		}
 	private void RotateTurret(){
 				if (Input.GetKey (KeyCode.A)) {
-						this.turrentRotation.Rotate (-this.rotationSpeed);
+						this.turretRotation.Rotate (-this.rotationSpeed);
 				}
 				if (Input.GetKey (KeyCode.D)) {
-			this.turrentRotation.Rotate (this.rotationSpeed);
+			this.turretRotation.Rotate (this.rotationSpeed);
 				}
 		}
 	private void Move(){
 				if (Input.GetKey (KeyCode.W)) {
-						this.transform.Translate (Vector3.forward);
+						this.transform.Translate (transform.forward);
 				}
 				if (Input.GetKey (KeyCode.S)) {
-						this.transform.Translate (Vector3.back);
+						this.transform.Translate (-transform.forward);
 				}
 		}
 
@@ -61,7 +49,7 @@ public class Turret : MonoBehaviour {
 	}
 	private void RotateGunInput (){
 		if (Input.GetKey (KeyCode.UpArrow)){
-			this.gunRotation.Rotate(-this.rotationSpeed);
+			this.gunRotation.Rotate(this.rotationSpeed);
 		}
 		if (Input.GetKey(KeyCode.DownArrow)){
 			this.gunRotation.Rotate(-this.rotationSpeed);

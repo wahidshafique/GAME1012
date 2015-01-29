@@ -2,18 +2,22 @@
 using System.Collections;
 
 public class Projectile : MonoBehaviour {
-	public float speed=0.1f;
+	public Rigidbody projectile;
 	// Use this for initialization
+	
+
 	void Start () {
-		StartCoroutine (DestroyAfterDelay (3));
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		this.transform.Translate (new Vector3 (0, 0, this.speed))}
-		private IEnumerator DestroyAfterDelay (float delay){
-		yield return new WaitForSeconds (delay);
-		GameObject.Destroy (this.gameObject);
-		}	                        
+		if (Input.GetKeyDown(KeyCode.Space)){
+			Rigidbody clone;
+			clone = Instantiate(projectile, transform.position, transform.rotation) as Rigidbody;
+			clone.velocity = transform.TransformDirection(Vector3.forward * 50);
+		}
 
+		Destroy(GameObject.Find("projectile(Clone)"),0.5f);
+	}
 }
+
