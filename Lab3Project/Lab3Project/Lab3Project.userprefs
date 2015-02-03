@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\Player\PlayerScore.cs">
+    <Files>
+      <File FileName="Assets\MyAssets\Scripts\Player\PlayerScore.cs" Line="30" Column="29" />
+      <File FileName="Assets\MyAssets\Scripts\Player\PlayerMovement.cs" Line="84" Column="9" />
+      <File FileName="Assets\MyAssets\Scripts\Player\PlayerCollision.cs" Line="6" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\Camera\SmoothFollow2D.cs" Line="28" Column="3" />
+      <File FileName="Assets\MyAssets\Scripts\Clicker.cs" Line="11" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
