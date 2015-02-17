@@ -1,11 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Projectile : MonoBehaviour {
+public class Enemy : MonoBehaviour {
 	private float speed = 10f;
-
+	
 	void Update () {
-		this.transform.Translate(Vector2.right * speed * Time.deltaTime);
+		this.transform.Translate(Vector3.left * speed * Time.deltaTime);
 	}
 	void OnTriggerEnter2D (Collider2D coll){
 		if (coll.gameObject.tag == "Enemy"){
@@ -13,3 +13,4 @@ public class Projectile : MonoBehaviour {
 		}
 	}
 }
+
