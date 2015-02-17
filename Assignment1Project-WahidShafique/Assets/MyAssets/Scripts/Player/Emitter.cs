@@ -2,7 +2,6 @@
 using System.Collections;
 
 public class Emitter : MonoBehaviour {
-
 	public GameObject projectile;
 	private float nextFire = 0f;
 	private float fireRate = 1f; //intervals for projectile to emit
@@ -13,6 +12,5 @@ public class Emitter : MonoBehaviour {
 			Vector3 position = transform.position;
 			GameObject bullet = (GameObject)Instantiate(projectile, position, transform.rotation);
 		}
-		Destroy(GameObject.Find("Projectile(Clone)"),3f); //destroys cloned projectiles after a set interval
 	}
 }

@@ -1,15 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Projectile : MonoBehaviour {
-	private float speed = 10f;
+public class ShipHitCheck : MonoBehaviour {
 
-	void Update () {
-		this.transform.Translate(Vector2.right * speed * Time.deltaTime);
-	}
 	void OnTriggerEnter2D (Collider2D coll){
 		if (coll.gameObject.tag == "Enemy"){
 			Destroy (gameObject);
+			Application.LoadLevel(0);
 		}
 	}
 }
