@@ -49,5 +49,4 @@ public class PlayerMovement : MonoBehaviour
 
 		this.gameObject.transform.Translate(movementDirection * this.SpeedPerFrame); 
 	}
-	
 }

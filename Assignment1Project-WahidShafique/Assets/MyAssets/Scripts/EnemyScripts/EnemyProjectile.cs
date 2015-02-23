@@ -8,7 +8,8 @@ public class EnemyProjectile : MonoBehaviour {
 		this.transform.Translate(Vector3.left * speed * Time.deltaTime);
 	}
 	void OnTriggerEnter2D (Collider2D coll){
-		if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Bound" || coll.gameObject.tag == "Bullet"){
+		tag = coll.gameObject.tag;
+		if (tag == "Player" || tag == "Bound" || tag == "Bullet"){
 			Destroy (gameObject);
 		}
 	}

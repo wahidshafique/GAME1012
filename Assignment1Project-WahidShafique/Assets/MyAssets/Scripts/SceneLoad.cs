@@ -2,7 +2,13 @@
 using System.Collections;
 
 public class SceneLoad : MonoBehaviour {
-	//controls behaviour for all buttons in game
+	//controls behaviour for all buttons and functions are manual loader when ship gets hit
+	public bool manualLoad = false;
+void Update (){
+		if (manualLoad)
+		Application.LoadLevel(0);
+	}
+
 public void Load(){
 	Application.LoadLevel(1);
 	}

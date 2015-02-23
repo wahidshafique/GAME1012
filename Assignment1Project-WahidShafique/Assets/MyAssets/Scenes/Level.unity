@@ -509,7 +509,7 @@ Transform:
   m_LocalScale: {x: .0399999991, y: .0399999991, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
 --- !u!58 &391405488
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -634,6 +634,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9053e9d39bb04f74e834acc2ee96dce7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manualLoad: 0
 --- !u!114 &435573941
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -965,7 +966,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 6
 --- !u!1 &816492036
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,7 +1177,7 @@ GameObject:
   - 50: {fileID: 1328785991}
   m_Layer: 10
   m_Name: BirdSeedProjectile
-  m_TagString: Enemy
+  m_TagString: EnemyBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1423,7 +1424,7 @@ Transform:
   m_Children:
   - {fileID: 816492037}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!1001 &1606214351
 Prefab:
   m_ObjectHideFlags: 0
@@ -1758,6 +1759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bee7167d15199489bd0b649033f6ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  explosionPrefab: {fileID: 129386, guid: a3ed7e1bbf3a08648bb059911fdabda5, type: 2}
 --- !u!1 &1909661339
 GameObject:
   m_ObjectHideFlags: 0
