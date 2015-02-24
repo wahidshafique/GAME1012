@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemySpawn : MonoBehaviour {
+public class Spawn : MonoBehaviour {
 	public float lowerFireRange;
 	public float higherFireRange;
 	public GameObject enemy;
