@@ -9,7 +9,7 @@ public class EnemyProjectile : MonoBehaviour {
 	}
 	void OnTriggerEnter2D (Collider2D coll){
 		tag = coll.gameObject.tag;
-		if (tag == "Player" || tag == "Bound" || tag == "Bullet" || tag == "BombPickup"){
+		if (tag == "Player" || tag == "Bound" || tag == "Bullet"){
 			Destroy (gameObject);
 		}
 	}
