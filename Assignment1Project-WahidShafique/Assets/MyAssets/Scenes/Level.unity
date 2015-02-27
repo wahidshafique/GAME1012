@@ -169,8 +169,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 9
   higherFireRange: 10
-  spawn: {fileID: 194710, guid: c23657376229fa946bb43786d9f84364, type: 2}
   nextFire: 0
+  spawn: {fileID: 194710, guid: c23657376229fa946bb43786d9f84364, type: 2}
 --- !u!4 &111256598
 Transform:
   m_ObjectHideFlags: 0
@@ -284,8 +284,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 4
   higherFireRange: 7
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!4 &198186259
 Transform:
   m_ObjectHideFlags: 0
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 3
   higherFireRange: 5
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!1 &291106642
 GameObject:
   m_ObjectHideFlags: 0
@@ -437,7 +437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &291106643
 Transform:
   m_ObjectHideFlags: 0
@@ -506,7 +506,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 172842, guid: fdd1a8a7bad7cfb4bb352408524a6ae9, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: fdd1a8a7bad7cfb4bb352408524a6ae9, type: 2}
@@ -750,8 +750,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 9
   higherFireRange: 10
-  spawn: {fileID: 124630, guid: 1bcc2455fdd55aa4ea7dbb603326e683, type: 2}
   nextFire: 0
+  spawn: {fileID: 124630, guid: 1bcc2455fdd55aa4ea7dbb603326e683, type: 2}
 --- !u!1 &491361765
 GameObject:
   m_ObjectHideFlags: 0
@@ -1182,7 +1182,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &851305438
 Transform:
   m_ObjectHideFlags: 0
@@ -1212,12 +1212,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3199ac0fb9c22b46ae46d1a295f199a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
-  direction: {x: 0, y: 0, z: 0}
   minY: -11.4428396
   maxY: 12.5719299
   minX: -11.8213196
   maxX: 17.4462509
+  speed: 10
+  direction: {x: 0, y: 0, z: 0}
 --- !u!114 &851305440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1642,8 +1642,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 3
   higherFireRange: 7
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!1 &1302213011
 GameObject:
   m_ObjectHideFlags: 0
@@ -1686,8 +1686,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 1
   higherFireRange: 5
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!1001 &1369753181
 Prefab:
   m_ObjectHideFlags: 0
@@ -1778,8 +1778,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 1
   higherFireRange: 6
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!1001 &1433659733
 Prefab:
   m_ObjectHideFlags: 0
@@ -1919,8 +1919,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 9
   higherFireRange: 10
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!4 &1650687412
 Transform:
   m_ObjectHideFlags: 0
@@ -1975,8 +1975,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 21
   higherFireRange: 30
-  spawn: {fileID: 145790, guid: 242d5ba10af35d946bb31445c25a8673, type: 2}
   nextFire: 20
+  spawn: {fileID: 145790, guid: 242d5ba10af35d946bb31445c25a8673, type: 2}
 --- !u!1 &1793531338
 GameObject:
   m_ObjectHideFlags: 0
@@ -2239,8 +2239,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 2
   higherFireRange: 5
-  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
   nextFire: 0
+  spawn: {fileID: 141964, guid: 8a41c6e062c6d49499532e7ce4b6aa75, type: 2}
 --- !u!1 &1884805405
 GameObject:
   m_ObjectHideFlags: 0

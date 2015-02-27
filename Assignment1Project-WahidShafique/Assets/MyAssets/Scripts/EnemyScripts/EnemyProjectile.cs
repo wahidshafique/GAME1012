@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class EnemyProjectile : MonoBehaviour {
+public class EnemyProjectile : MonoBehaviour { 
+	//the projectile ejected from EnemyEmitter
 	private float speed = 15f;
 	
 	void Update () {

@@ -3,8 +3,6 @@ using System.Collections;
 
 public class TurretScript : MonoBehaviour {
 	private float rotationSpeed = 10;
-	//public GameObject turretProjectile = null;
-	//public Transform turretEmitter= null;
 
 	void Start () {
 	

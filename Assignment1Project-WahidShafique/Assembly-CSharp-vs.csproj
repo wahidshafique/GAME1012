@@ -49,18 +49,18 @@
      <Compile Include="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnemyScripts\EnemyEmitter.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnemyScripts\EnemyProjectile.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\EnemyScripts\Spawn.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Emitter.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\GlobalScripts\SceneLoad.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\GlobalScripts\Spawn.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\FlameCheck.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerEmitter.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerMovement.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Projectile.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerProjectile.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PowerupScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Rotator.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\ShipHitCheck.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretEmitter.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretProjectile.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PowerupScript.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\SceneLoad.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\ShipHitCheck.cs" />
-     <Compile Include="Assets\Rotator.cs" />
-     <Compile Include="Assets\TurretEmitter.cs" />
-     <Compile Include="Assets\TurretScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>

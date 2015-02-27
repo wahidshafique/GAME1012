@@ -2,9 +2,10 @@ using UnityEngine;
 using System.Collections;
 
 public class PowerupScript : MonoBehaviour {
+	//controls the powerup objects created for Spawn
 	public float speed = 20f;
 
-	void Update () {//shoot left 
+	void Update () { //shoot left 
 		this.transform.Translate(Vector3.left * speed * Time.deltaTime);
 	}
 	void OnTriggerEnter2D (Collider2D coll){//destroy powerup if it hits player or bound

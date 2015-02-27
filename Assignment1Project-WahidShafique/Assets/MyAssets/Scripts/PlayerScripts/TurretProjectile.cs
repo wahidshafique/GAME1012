@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class TurretProjectile : MonoBehaviour {
+public class TurretProjectile : MonoBehaviour { //the projectile ejected from TurretEmitter
 	private float speed = 15f;
 
 	void Update () {
