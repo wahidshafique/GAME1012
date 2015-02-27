@@ -5,10 +5,9 @@ public class TurretScript : MonoBehaviour {
 	private float rotationSpeed = 10;
 
 	void Start () {
-	
+		print("turret is on");
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 		Rotate();
 	}

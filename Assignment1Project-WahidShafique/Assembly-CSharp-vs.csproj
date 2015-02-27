@@ -55,12 +55,12 @@
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerEmitter.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerMovement.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PlayerProjectile.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\PowerupScript.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Rotator.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Powerup\PowerupScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Powerup\Rotator.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretEmitter.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretProjectile.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\ShipHitCheck.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretEmitter.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretProjectile.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\PlayerScripts\TurretScript.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
