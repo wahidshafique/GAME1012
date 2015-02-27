@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class PlayerProjectile : MonoBehaviour {
+	//controls player projectile, which exclusively moves RIGHT (unless shot from turret)
 	private float speed = 15f;
 
 	void Update () {

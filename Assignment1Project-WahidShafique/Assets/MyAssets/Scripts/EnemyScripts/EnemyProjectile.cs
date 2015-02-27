@@ -8,6 +8,7 @@ public class EnemyProjectile : MonoBehaviour {
 	void Update () {
 		this.transform.Translate(Vector3.left * speed * Time.deltaTime);
 	}
+
 	void OnTriggerEnter2D (Collider2D coll){
 		tag = coll.gameObject.tag;
 		if (tag == "Player" || tag == "Bound" || tag == "Bullet"){

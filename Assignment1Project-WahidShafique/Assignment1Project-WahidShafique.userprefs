@@ -1,10 +1,22 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs">
     <Files>
-      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs" Line="27" Column="4" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\Rotator.cs" Line="5" Column="2" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretScript.cs" Line="9" Column="3" />
+      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs" Line="12" Column="16" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\Rotator.cs" Line="7" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretScript.cs" Line="5" Column="45" />
+      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\EnemyEmitter.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\EnemyProjectile.cs" Line="11" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\SceneLoad.cs" Line="26" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\Spawn.cs" Line="18" Column="4" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\PowerupScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretEmitter.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretProjectile.cs" Line="5" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\FlameCheck.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerEmitter.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerMovement.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerProjectile.cs" Line="7" Column="2" />
+      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\ShipHitCheck.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

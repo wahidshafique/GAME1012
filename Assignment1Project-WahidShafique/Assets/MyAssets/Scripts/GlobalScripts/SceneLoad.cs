@@ -7,8 +7,10 @@ public class SceneLoad : MonoBehaviour {
 
 	void Update () {
 		if (manualLoad)
-		Application.LoadLevel(0);
+		Application.LoadLevel(0);//constant check of whether you are still alive 
 	}
+
+	//exposed controls for GUI buttons
 	public void Load(){
 	Application.LoadLevel(1);
 	}
