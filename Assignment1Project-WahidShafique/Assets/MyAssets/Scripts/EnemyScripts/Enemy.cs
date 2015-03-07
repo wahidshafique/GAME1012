@@ -23,7 +23,7 @@ public class Enemy : MonoBehaviour {
 			this.gameObject.tag = "Dead";//change tag to prevent the falling enemy from destroying you
 			GameObject explosionObject = Instantiate(this.explosionPrefab) as GameObject;
 			explosionObject.transform.position = this.transform.position; //creates explosion
-			this.rigidbody2D.gravityScale = 3; //sets gravity scale to high to simulate fall
+			this.GetComponent<Rigidbody2D>().gravityScale = 3; //sets gravity scale to high to simulate fall
 		}
 		if (coll.gameObject.tag == "Bound") Destroy (gameObject);
 	}
