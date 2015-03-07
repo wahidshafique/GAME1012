@@ -1,16 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
-using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour { 
 	//controls behaviour of enemies 
 	public GameObject explosionPrefab = null;
 	private float speed = 8f;
-	private int score = 0;
 	Animator anim;
+	Rigidbody2D rigid;
 
-	void Start (){
+	void Awake (){
 		anim = GetComponent <Animator>();
+		rigid = GetComponent<Rigidbody2D>();
 	}
 
 	void Update () {
@@ -23,7 +23,8 @@ public class Enemy : MonoBehaviour {
 			this.gameObject.tag = "Dead";//change tag to prevent the falling enemy from destroying you
 			GameObject explosionObject = Instantiate(this.explosionPrefab) as GameObject;
 			explosionObject.transform.position = this.transform.position; //creates explosion
-			this.GetComponent<Rigidbody2D>().gravityScale = 3; //sets gravity scale to high to simulate fall
+			rigid.gravityScale = 3; //sets gravity scale to high to simulate fall
+
 		}
 		if (coll.gameObject.tag == "Bound") Destroy (gameObject);
 	}

@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\DESN1086\DESN1086_M1_Shafique_Wahid_DonkeyKong\Assets\Game\GameScripts\UI.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs">
     <Files>
-      <File FileName="..\..\DESN1086\DESN1086_M1_Shafique_Wahid_DonkeyKong\Assets\Game\GameScripts\UI.cs" Line="15" Column="26" />
+      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs" Line="26" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

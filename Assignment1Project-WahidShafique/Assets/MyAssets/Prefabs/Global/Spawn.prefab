@@ -11,8 +11,8 @@ GameObject:
   - 114: {fileID: 11405188}
   m_Layer: 11
   m_Name: Spawn
-  m_TagString: BombPickup
-  m_Icon: {fileID: -1500306622, guid: 0000000000000000d000000000000000, type: 0}
+  m_TagString: Turret
+  m_Icon: {fileID: 266726316, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -23,7 +23,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 105188}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -.0599999987, z: 0}
+  m_LocalPosition: {x: 0, y: -10.6499996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -41,7 +41,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lowerFireRange: 9
   higherFireRange: 10
-  spawn: {fileID: 194710, guid: c23657376229fa946bb43786d9f84364, type: 2}
+  nextFire: 15
+  spawn: {fileID: 124630, guid: 1bcc2455fdd55aa4ea7dbb603326e683, type: 2}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -53,4 +54,3 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 105188}
   m_IsPrefabParent: 1
-  m_IsExploded: 1
