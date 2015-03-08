@@ -4,6 +4,7 @@ using System.Collections;
 public class Enemy : MonoBehaviour { 
 	//controls behaviour of enemies 
 	public GameObject explosionPrefab = null;
+	public bool isSpecial = false; 
 	private float speed = 8f;
 	Animator anim;
 	Rigidbody2D rigid;
@@ -21,11 +22,19 @@ public class Enemy : MonoBehaviour {
 		if (coll.gameObject.tag == "Bullet"){
 			anim.SetBool ("Dead", true);
 			this.gameObject.tag = "Dead";//change tag to prevent the falling enemy from destroying you
+			if (this.gameObject.tag == "Dead") PlayerData.GetInstance.score++;
 			GameObject explosionObject = Instantiate(this.explosionPrefab) as GameObject;
 			explosionObject.transform.position = this.transform.position; //creates explosion
 			rigid.gravityScale = 3; //sets gravity scale to high to simulate fall
 
 		}
-		if (coll.gameObject.tag == "Bound") Destroy (gameObject);
+		if (coll.gameObject.tag == "Bound" && !isSpecial) Destroy (gameObject);
+		if (isSpecial)
+			StartCoroutine (manualDestroy());
+	}
+
+	IEnumerator manualDestroy (){
+		yield return new WaitForSeconds(7f);
+		Destroy (this.gameObject);
 	}
 }

@@ -6,8 +6,8 @@ AnimationClip:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: LeftRightSpawns
-  serializedVersion: 4
-  m_AnimationType: 2
+  serializedVersion: 6
+  m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
@@ -25,17 +25,17 @@ AnimationClip:
         value: {x: 9.31999969, y: -2.38000011, z: 0}
         inSlope: {x: .000652885472, y: .823529482, z: 0}
         outSlope: {x: .000652885472, y: .823529482, z: 0}
-        tangentMode: 5570560
+        tangentMode: 0
       - time: 3.33333325
         value: {x: 9.31999969, y: 3.36999989, z: 0}
         inSlope: {x: -.000652885414, y: .901470542, z: 0}
         outSlope: {x: -.000652885414, y: .901470542, z: 0}
-        tangentMode: 102402932
+        tangentMode: 0
       - time: 5
         value: {x: 9.31782341, y: .624901533, z: 0}
         inSlope: {x: -.00130577083, y: -1.64705896, z: 0}
         outSlope: {x: -.00130577083, y: -1.64705896, z: 0}
-        tangentMode: 258
+        tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
     path: 
@@ -162,4 +162,7 @@ AnimationClip:
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
   m_Events: []

@@ -14,6 +14,10 @@ public class PowerupScript : MonoBehaviour {
 			Destroy (gameObject);
 			print ("hit a player or bound ");
 		}
+		if (tag == "Bullet")
+			print ("hit a bullet");
 	}
+	//TODO: Fix coll problems
+	//problem has since been solved by changing layer coll matrix
 }
 

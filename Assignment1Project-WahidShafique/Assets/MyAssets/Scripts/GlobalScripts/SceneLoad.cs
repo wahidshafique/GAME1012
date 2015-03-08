@@ -12,7 +12,7 @@ public class SceneLoad : MonoBehaviour {
 
 	//exposed controls for GUI buttons
 	public void Load(){
-	Application.LoadLevel(1);
+		Application.LoadLevel(1);
 	}
 
 	public void Back (){

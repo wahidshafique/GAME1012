@@ -6,8 +6,8 @@ AnimationClip:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: BottomTop
-  serializedVersion: 4
-  m_AnimationType: 2
+  serializedVersion: 6
+  m_Legacy: 0
   m_Compressed: 0
   m_UseHighQualityCurve: 1
   m_RotationCurves: []
@@ -20,12 +20,12 @@ AnimationClip:
         value: {x: 3.20000076, y: -11.6999998, z: 0}
         inSlope: {x: 2.39999938, y: 0, z: 0}
         outSlope: {x: 2.39999938, y: 0, z: 0}
-        tangentMode: 1550424
+        tangentMode: 0
       - time: 1.66666663
         value: {x: 7.19999981, y: -11.6999998, z: 0}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
-        tangentMode: 96608292
+        tangentMode: 0
       - time: 3.33333325
         value: {x: 3.20000076, y: -11.6999998, z: 0}
         inSlope: {x: -2.39999938, y: 0, z: 0}
@@ -142,4 +142,7 @@ AnimationClip:
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves: []
+  m_HasGenericRootTransform: 1
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
   m_Events: []

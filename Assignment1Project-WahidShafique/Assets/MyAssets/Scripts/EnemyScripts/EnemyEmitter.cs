@@ -9,7 +9,7 @@ public class EnemyEmitter : MonoBehaviour {
 	private float nextFire = 0f;//controls first instance of instantiated object
 	
 	void Update () {
-		float fireRate = Random.Range(lowerFireRange, higherFireRange);
+		float fireRate = Random.Range(lowerFireRange, higherFireRange);//randomize enemy spawn based on public ranges
 		if ( Time.time > nextFire){
 			nextFire = Time.time + fireRate;
 			Vector2 position = transform.position;
