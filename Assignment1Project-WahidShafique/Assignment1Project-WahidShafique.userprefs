@@ -1,23 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\GlobalScripts\Spawn.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\GlobalScripts\SceneLoad.cs">
     <Files>
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerMovement.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\Enemy.cs" Line="26" Column="32" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\ShipHitCheck.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerProjectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\Spawn.cs" Line="17" Column="53" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretScript.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\GlobalScripts\HUD.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\PlayerData.cs" Line="5" Column="34" />
-      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\EnemyEmitter.cs" Line="12" Column="112" />
+      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\PlayerData.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\EnemyScripts\EnemyEmitter.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\EnemyScripts\EnemyProjectile.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\SceneLoad.cs" Line="17" Column="2" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\Rotator.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\PowerupScript.cs" Line="24" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretEmitter.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\PlayerScripts\Powerup\TurretProjectile.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\PlayerScripts\PlayerEmitter.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\GlobalScripts\SceneLoad.cs" Line="26" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
