@@ -12,11 +12,11 @@ public class RobotBoyControlScript : MonoBehaviour {
 	private float groundRad = 0.2f;
 	private float move;
 	private float maximumSpeed = 2f; 
-	private float jumpForce = 150f;
+	private float jumpForce = 350f;// /// 
 
 	public Transform groundCheck;
 	public LayerMask whatIsGround;
-	public AudioClip jumpClip;
+//	public AudioClip jumpClip;
 
 
 	void Start () {
@@ -43,7 +43,7 @@ public class RobotBoyControlScript : MonoBehaviour {
 		
 		if ( grounded && Input.GetKeyDown(KeyCode.Space)){ //jumping 
 			rigidbody2D.AddForce(new Vector2(0,jumpForce));
-			this.GetComponent<AudioSource>().Play();
+	//		this.GetComponent<AudioSource>().Play();
 			
 		}
 	}
@@ -66,6 +66,12 @@ public class RobotBoyControlScript : MonoBehaviour {
 			moveCheck = false; //now the player cannot move with arrows
 			//this.rigidbody2D.isKinematic = true;
 		}
+	}
+	void OnTriggerStay2D (Collider2D gravArea){
+		if (gravArea.tag == "Lev"){
+			this.rigidbody2D.gravityScale = -5;
+		}
+		else this.rigidbody2D.gravityScale = 1;
 	}
 }
 

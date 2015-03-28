@@ -46,6 +46,8 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\DoorScript.cs" />
+     <Compile Include="Assets\LevitationScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\RobotBoyControlScript.cs" />
  <Reference Include="UnityEngine.UI">
