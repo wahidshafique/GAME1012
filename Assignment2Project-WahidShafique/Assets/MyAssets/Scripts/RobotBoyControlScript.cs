@@ -46,6 +46,11 @@ public class RobotBoyControlScript : MonoBehaviour {
 	//		this.GetComponent<AudioSource>().Play();
 			
 		}
+		if (Input.GetKeyDown(KeyCode.UpArrow)){ //jumping 
+			rigidbody2D.AddForce(new Vector2(0,jumpForce));
+			//		this.GetComponent<AudioSource>().Play();
+			
+		}
 	}
 }
 	
@@ -60,7 +65,8 @@ public class RobotBoyControlScript : MonoBehaviour {
 		transform.localScale = TheScale;
 	}	
 	void OnTriggerEnter2D (Collider2D other){
-		if (other.tag == "Fire"){
+		if (other.tag == "Death"){
+			this.gameObject.tag = "DeadRobot";
 			//Destroy(this.gameObject);
 			anim.SetBool("Death", true);
 			moveCheck = false; //now the player cannot move with arrows

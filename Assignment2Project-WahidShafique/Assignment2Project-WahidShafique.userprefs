@@ -1,21 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RobotBoyControlScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\Lab7Project\Lab7Project\Assets\MyAssets\Scripts\Managers\AudioManager.cs">
     <Files>
-      <File FileName="Assets\DoorScript.cs" Line="13" Column="40" />
-      <File FileName="Assets\RobotBoyControlScript.cs" Line="74" Column="42" />
+      <File FileName="Assets\MyAssets\Scripts\DoorScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\RobotBoyControlScript.cs" Line="1" Column="1" />
       <File FileName="Assets\MyAssets\Scripts\ElevatorScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\LevitationScript.cs" Line="4" Column="48" />
+      <File FileName="..\Lab7Project\Lab7Project\Assets\MyAssets\Scripts\Managers\AudioManager.cs" Line="24" Column="55" />
+      <File FileName="..\Lab7Project\Lab7Project\Assets\MyAssets\Scripts\Player\PlayerCollision.cs" Line="1" Column="1" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State expanded="True">
-          <Node name="Assembly-CSharp" expanded="True">
-            <Node name="RobotBoyControlScript.cs" selected="True" />
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />

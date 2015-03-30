@@ -1,8 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\DESN1086\DESN1086_M1_Shafique_Wahid_DonkeyKong\Assets\HUD.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\Managers\AudioManager.cs">
     <Files>
-      <File FileName="..\..\..\DESN1086\DESN1086_M1_Shafique_Wahid_DonkeyKong\Assets\HUD.cs" Line="8" Column="2" />
+      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\DoorScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\RobotBoyControlScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\ElevatorScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\MyAssets\Scripts\Managers\AudioManager.cs" Line="24" Column="55" />
+      <File FileName="Assets\MyAssets\Scripts\Player\PlayerCollision.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

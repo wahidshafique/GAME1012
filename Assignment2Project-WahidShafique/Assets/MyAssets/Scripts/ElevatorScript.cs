@@ -11,7 +11,7 @@ public class ElevatorScript : MonoBehaviour {
 	}
 
 	void OnTriggerEnter2D (Collider2D other) {
-		if (other.tag == "Fire"){//trigger explosion and destroy when plat in near fire 
+		if (other.tag == "Death"){//trigger explosion and destroy when plat in near fire 
 			Destroy(this.gameObject);
 			explosion.SetActive(true);
 		}
