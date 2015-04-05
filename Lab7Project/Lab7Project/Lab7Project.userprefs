@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\Managers\AudioManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\close_encounters\Assets\Scripts\Menu.cs">
     <Files>
-      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\DoorScript.cs" Line="1" Column="1" />
-      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\RobotBoyControlScript.cs" Line="1" Column="1" />
-      <File FileName="..\..\Assignment2Project-WahidShafique\Assets\MyAssets\Scripts\ElevatorScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\Managers\AudioManager.cs" Line="24" Column="55" />
-      <File FileName="Assets\MyAssets\Scripts\Player\PlayerCollision.cs" Line="1" Column="1" />
+      <File FileName="..\..\..\close_encounters\Assets\Scripts\Menu.cs" Line="10" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

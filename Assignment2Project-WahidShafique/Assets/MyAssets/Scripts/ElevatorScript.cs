@@ -19,6 +19,6 @@ public class ElevatorScript : MonoBehaviour {
 	}
 	IEnumerator moveDown (){
 		yield return new WaitForSeconds (0.5f);
-		platActive = true; //once player is in trigger, sets the plat to active
+		platActive = true; //once player is in trigger, sets the plat to active after a few secs 
 	}
 }

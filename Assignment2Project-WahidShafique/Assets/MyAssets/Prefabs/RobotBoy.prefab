@@ -15,8 +15,9 @@ GameObject:
   - 61: {fileID: 6175312}
   - 114: {fileID: 11431420}
   - 82: {fileID: 8216252}
-  - 82: {fileID: 8245534}
-  m_Layer: 11
+  - 114: {fileID: 11448406}
+  - 82: {fileID: 8212772}
+  m_Layer: 10
   m_Name: RobotBoy
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -31,7 +32,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 475238}
-  m_Layer: 11
+  m_Layer: 10
   m_Name: GroundCheck
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -104,18 +105,18 @@ BoxCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Size: {x: .25, y: .680000007}
---- !u!82 &8216252
+--- !u!82 &8212772
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 138118}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 4825e9268b7c84159b1f2b9cb54850b1, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
+  m_audioClip: {fileID: 8300000, guid: fc55d077383484ac0ad66aa17fcd746f, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: .5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -173,7 +174,7 @@ AudioSource:
       tangentMode: 0
     m_PreInfinity: 2
     m_PostInfinity: 2
---- !u!82 &8245534
+--- !u!82 &8216252
 AudioSource:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -270,10 +271,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c3658738d5d96d46956e82b5599bc10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  jumpClip: {fileID: 8212772}
   groundCheck: {fileID: 475238}
   whatIsGround:
     serializedVersion: 2
-    m_Bits: 4294964936
+    m_Bits: 4294964168
+--- !u!114 &11448406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 138118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae1c4be61aadd624d95b494be318620b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  manualLoad: 0
 --- !u!212 &21204600
 SpriteRenderer:
   m_ObjectHideFlags: 1
