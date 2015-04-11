@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Menu : MonoBehaviour {
-	public bool manualLoad = false; //for animator; once you die it triggers and loads menu
+public class Menu : MonoBehaviour {//controls all main and sub menu options (GUI)
+	public bool manualLoad = false; //for animator; this bool is manually set to true after the death anim finishes
 	
 	void Update () {
 		if (manualLoad)

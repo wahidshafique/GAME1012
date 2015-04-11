@@ -84,7 +84,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3438ee9c77ed12849837be8c0515a1ac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelToLoad: 
+  levelToLoad: Level2
 --- !u!198 &19877672
 ParticleSystem:
   m_ObjectHideFlags: 1
@@ -1110,7 +1110,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: .5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -150960435
+  m_SortingLayerID: -458132769
   m_SortingOrder: 0
   m_RenderMode: 3
   m_MaxParticleSize: .400000006

@@ -9,6 +9,12 @@ TagManager:
   - Fire
   - Door
   - Lev
+  - Bomb
+  - BombAmmo
+  - WallsFloor
+  - Turret
+  - BombUI
+  - RocketPickup
   layers:
   - Default
   - TransparentFX
@@ -43,6 +49,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 2610846295
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: FX
+    uniqueID: 3836834527
     locked: 0

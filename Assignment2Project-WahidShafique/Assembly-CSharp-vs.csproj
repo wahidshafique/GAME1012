@@ -46,11 +46,13 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\MyAssets\Scripts\BombScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\DoorScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\ElevatorScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Menu.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Projectile.cs" />
      <Compile Include="Assets\MyAssets\Scripts\RobotBoyControlScript.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\TurretBaseScript.cs" />
      <Compile Include="Assets\MyAssets\Scripts\TurretEmitter.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
